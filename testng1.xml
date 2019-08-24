@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNGSuite">
+	<test thread-count="5" name="Login">
+		<classes>
+			<class name="com.automation.testCases.StanaloneTestNGTest" />
+			<class name="com.automation.testCases.StandaloneTest03" />
+			<class name="com.automation.testCases.StandAloneTestNGTest02" />
+			<class name="com.automation.testCases.LoginTest01" />
+		</classes>
+	</test> <!-- Test1 -->
+</suite> <!-- Suite -->
