@@ -7,8 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 public class BaseClass {
 
@@ -22,7 +22,7 @@ public class BaseClass {
 	String Browser = "chrome";
 	String headless = "true";
 
-	@BeforeTest
+	@BeforeClass
 	public void setup() {
 		if (Browser.contains("firefox")) {
 			System.setProperty("webdriver.gecko.driver", pp + "/Drivers/geckodriver");
@@ -54,7 +54,7 @@ public class BaseClass {
 
 
 
-	@AfterTest
+	@AfterClass
 	public void tearDown() {
 		driver.quit();
 
