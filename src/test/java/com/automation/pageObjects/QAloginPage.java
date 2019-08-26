@@ -16,10 +16,9 @@ public class QAloginPage {
 		
 	}
 	
-	
-	@FindBy (id="email") WebElement pemail;
+	@FindBy (xpath ="//input[@id='email']") WebElement pemail;
 	@FindBy (id="password") WebElement ppassword;
-	@FindBy (id="submit") WebElement psubmit;
+	@FindBy (xpath ="//input[@name='submit']") WebElement psubmit;
 	
 	
 	public void setemail(String uemail) {

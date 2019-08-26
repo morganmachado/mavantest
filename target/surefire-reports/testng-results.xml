@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11562" started-at="2019-08-26T15:58:50Z" finished-at="2019-08-26T15:59:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11562" started-at="2019-08-26T15:58:50Z" finished-at="2019-08-26T15:59:01Z">
+      <class name="com.automation.testCases.QAtest01">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testCases.QAtest01@36f6e879]" name="setup" is-config="true" duration-ms="982" started-at="2019-08-26T15:58:50Z" finished-at="2019-08-26T15:58:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.automation.testCases.QAtest01@36f6e879]" name="LoginTest" duration-ms="10485" started-at="2019-08-26T15:58:51Z" finished-at="2019-08-26T15:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.automation.testCases.QAtest01@36f6e879]" name="Teardown" is-config="true" duration-ms="82" started-at="2019-08-26T15:59:01Z" finished-at="2019-08-26T15:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.automation.testCases.QAtest01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

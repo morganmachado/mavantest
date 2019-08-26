@@ -1,0 +1,11 @@
+com/automation/pageObjects/LoginPage.class
+com/automation/testCases/StandaloneTest03.class
+com/automation/testCases/LoginTest01.class
+com/automation/testCases/StandAloneTestNGTest02.class
+com/automation/pageObjects/QAloginPage.class
+com/automation/testCases/StandAloneProperties.class
+com/automation/testCases/StandAloneTestNGTest01.class
+com/automation/testCases/QAtest01.class
+com/automation/testCases/BaseClass.class
+com/automation/testCases/QAbase01.class
+com/automation/testCases/StanaloneTestNGTest.class
