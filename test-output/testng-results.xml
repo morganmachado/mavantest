@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14747" started-at="2019-08-26T15:42:43Z" finished-at="2019-08-26T15:42:58Z">
+  <suite name="Default suite" duration-ms="8481" started-at="2019-08-27T15:24:35Z" finished-at="2019-08-27T15:24:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14747" started-at="2019-08-26T15:42:43Z" finished-at="2019-08-26T15:42:58Z">
+    <test name="Default test" duration-ms="8481" started-at="2019-08-27T15:24:35Z" finished-at="2019-08-27T15:24:44Z">
       <class name="com.automation.testCases.QAtest01">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testCases.QAtest01@13deb50e]" name="setup" is-config="true" duration-ms="1083" started-at="2019-08-26T15:42:43Z" finished-at="2019-08-26T15:42:44Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testCases.QAtest01@13deb50e]" name="setup" is-config="true" duration-ms="1740" started-at="2019-08-27T15:24:35Z" finished-at="2019-08-27T15:24:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.automation.testCases.QAtest01@13deb50e]" name="LoginTest" duration-ms="13561" started-at="2019-08-26T15:42:44Z" finished-at="2019-08-26T15:42:58Z">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.automation.testCases.QAtest01@13deb50e]" name="LoginTest" duration-ms="6631" started-at="2019-08-27T15:24:37Z" finished-at="2019-08-27T15:24:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.automation.testCases.QAtest01@13deb50e]" name="Teardown" is-config="true" duration-ms="83" started-at="2019-08-26T15:42:58Z" finished-at="2019-08-26T15:42:58Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.automation.testCases.QAtest01@13deb50e]" name="Teardown" is-config="true" duration-ms="91" started-at="2019-08-27T15:24:43Z" finished-at="2019-08-27T15:24:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
