@@ -1,4 +1,4 @@
-package com.automation.testCases;
+		package com.automation.testCases;
 
 import java.util.concurrent.TimeUnit;
 
@@ -46,6 +46,7 @@ public class QAbase01 {
 				driver = new ChromeDriver();
 			}
 		}
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
 
@@ -57,7 +58,8 @@ public class QAbase01 {
 	@AfterClass
 
 	public void Teardown() {
-		driver.quit();
+		System.out.println("done");
+		// driver.quit();
 	}
 
 

@@ -9,7 +9,8 @@ public class QAtest01 extends QAbase01 {
 
 
 	@Test
-	public void LoginTest() {
+	public void LoginTest() 
+	{
 		driver.get(baseURL);
 		QAloginPage lp = new QAloginPage(driver);
 		lp.setemail(uemail);
@@ -24,4 +25,8 @@ public class QAtest01 extends QAbase01 {
 			AssertJUnit.assertTrue(false);
 		}
 	}
+
+
+
+
 }

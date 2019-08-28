@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Cross Browser Testing Suite]" parallel="tests">
-  <test thread-count="2" name="ChromeTest(failed)" parallel="tests">
-    <parameter name="Browser" value="chrome"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.testCases.QAtest01">
+      <class name="com.automation.testCases.QAordertest">
         <methods>
-          <include name="LoginTest"/>
           <include name="setup"/>
+          <include name="dropdntest"/>
           <include name="Teardown"/>
         </methods>
-      </class> <!-- com.automation.testCases.QAtest01 -->
+      </class> <!-- com.automation.testCases.QAordertest -->
     </classes>
-  </test> <!-- ChromeTest(failed) -->
-  <test thread-count="2" name="FirefoxTest(failed)" parallel="tests">
-    <parameter name="Browser" value="firefox"/>
-    <classes>
-      <class name="com.automation.testCases.QAtest01">
-        <methods>
-          <include name="LoginTest"/>
-          <include name="setup"/>
-          <include name="Teardown"/>
-        </methods>
-      </class> <!-- com.automation.testCases.QAtest01 -->
-    </classes>
-  </test> <!-- FirefoxTest(failed) -->
-</suite> <!-- Failed suite [Cross Browser Testing Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
