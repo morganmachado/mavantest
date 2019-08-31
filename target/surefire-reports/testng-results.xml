@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNGSuite" duration-ms="6024" started-at="2019-08-31T06:53:02Z" finished-at="2019-08-31T06:53:08Z">
+  <suite name="Suite" duration-ms="14979" started-at="2019-08-31T13:23:51Z" finished-at="2019-08-31T13:24:06Z">
     <groups>
     </groups>
-    <test name="Login" duration-ms="6024" started-at="2019-08-31T06:53:02Z" finished-at="2019-08-31T06:53:08Z">
-      <class name="com.automation.testCases.StandAloneProperties">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testCases.StandAloneProperties@54a097cc]" name="setup" is-config="true" duration-ms="2468" started-at="2019-08-31T06:53:02Z" finished-at="2019-08-31T06:53:04Z">
+    <test name="Test" duration-ms="14979" started-at="2019-08-31T13:23:51Z" finished-at="2019-08-31T13:24:06Z">
+      <class name="com.automation.testCases.QAordertest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testCases.QAordertest@531be3c5]" name="setup" is-config="true" duration-ms="1024" started-at="2019-08-31T13:23:51Z" finished-at="2019-08-31T13:23:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="tester()[pri:0, instance:com.automation.testCases.StandAloneProperties@54a097cc]" name="tester" duration-ms="3463" started-at="2019-08-31T06:53:04Z" finished-at="2019-08-31T06:53:08Z">
+        <test-method status="PASS" signature="dropdntest()[pri:0, instance:com.automation.testCases.QAordertest@531be3c5]" name="dropdntest" duration-ms="13942" started-at="2019-08-31T13:23:52Z" finished-at="2019-08-31T13:24:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tester -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testCases.StandAloneProperties@54a097cc]" name="tearDown" is-config="true" duration-ms="72" started-at="2019-08-31T06:53:08Z" finished-at="2019-08-31T06:53:08Z">
+        </test-method> <!-- dropdntest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.automation.testCases.QAordertest@531be3c5]" name="Teardown" is-config="true" duration-ms="1" started-at="2019-08-31T13:24:06Z" finished-at="2019-08-31T13:24:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.automation.testCases.StandAloneProperties -->
-    </test> <!-- Login -->
-  </suite> <!-- TestNGSuite -->
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.automation.testCases.QAordertest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

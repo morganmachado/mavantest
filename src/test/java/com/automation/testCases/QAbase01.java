@@ -15,7 +15,7 @@ public class QAbase01 {
 	public static WebDriver driver;
 	String pp = System.getProperty("user.dir");
 	String Browser= "chrome";
-	String headless = "false";
+	String headless = "true";
 	String baseURL = "http://demo.guru99.com/insurance/v1/index.php";
 	String uemail = "mr.morganmac@gmail.com";
 	String upass = "guru88m8";

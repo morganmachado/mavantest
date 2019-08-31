@@ -43,30 +43,25 @@ public class QAorder {
 	public void setincidents(String inc) {
 		incidents.sendKeys(inc);
 	}
-	public void setregistration() {
+	public void setpara() {
 		registration.sendKeys("34234");
-	}
-	public void setmileage() {
 		mileage.sendKeys("123");
 	}
+
 	public void setvalue() {
-		value.sendKeys("1312");
+		value.sendKeys("13000");
 	}
 	public void setparkinglocationdn() {
 		Select select = new Select(parkinglocationdn);
 		select.selectByVisibleText("Public Place");
 	}
-	public void setyear() {
-		Select select =new Select (year);
-		select.selectByValue("2020");
-	}
-	public void setmonth(String text) {
-		Select select = new Select(month);
-		select.selectByVisibleText(text);
-	}
-	public void setdate() {
-		Select select = new Select(date);
-		select.selectByValue("12");
+	public void setYearMonthDate(String text) {
+		Select selectyear =new Select (year);
+		selectyear.selectByValue("2021");
+		Select selectmonth = new Select(month);
+		selectmonth.selectByVisibleText(text);
+		Select selectdate = new Select(date);
+		selectdate.selectByValue("12");
 	}
 	public void setCalculatePbutton() {
 		CalculatePbutton.click();
