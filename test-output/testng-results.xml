@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10205" started-at="2019-08-31T13:18:29Z" finished-at="2019-08-31T13:18:40Z">
+  <suite name="Default suite" duration-ms="13222" started-at="2019-08-31T20:30:58Z" finished-at="2019-08-31T20:31:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10205" started-at="2019-08-31T13:18:29Z" finished-at="2019-08-31T13:18:40Z">
-      <class name="com.automation.testCases.QAordertest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testCases.QAordertest@13deb50e]" name="setup" is-config="true" duration-ms="1860" started-at="2019-08-31T13:18:29Z" finished-at="2019-08-31T13:18:31Z">
+    <test name="Default test" duration-ms="13222" started-at="2019-08-31T20:30:58Z" finished-at="2019-08-31T20:31:11Z">
+      <class name="com.automation.testCases.QAtest01">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testCases.QAtest01@13deb50e]" name="setup" is-config="true" duration-ms="1826" started-at="2019-08-31T20:30:58Z" finished-at="2019-08-31T20:31:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="dropdntest()[pri:0, instance:com.automation.testCases.QAordertest@13deb50e]" name="dropdntest" duration-ms="8327" started-at="2019-08-31T13:18:31Z" finished-at="2019-08-31T13:18:40Z">
+        <test-method status="PASS" signature="popuptest()[pri:0, instance:com.automation.testCases.QAtest01@13deb50e]" name="popuptest" duration-ms="11294" started-at="2019-08-31T20:31:00Z" finished-at="2019-08-31T20:31:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dropdntest -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.automation.testCases.QAordertest@13deb50e]" name="Teardown" is-config="true" duration-ms="1" started-at="2019-08-31T13:18:40Z" finished-at="2019-08-31T13:18:40Z">
+        </test-method> <!-- popuptest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.automation.testCases.QAtest01@13deb50e]" name="Teardown" is-config="true" duration-ms="83" started-at="2019-08-31T20:31:11Z" finished-at="2019-08-31T20:31:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-      </class> <!-- com.automation.testCases.QAordertest -->
+      </class> <!-- com.automation.testCases.QAtest01 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
