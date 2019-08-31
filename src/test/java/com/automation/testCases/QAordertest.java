@@ -19,11 +19,23 @@ public class QAordertest extends QAbase01 {
 		lp.setemail(uemail);
 		lp.setpassword(upass);
 		lp.setsubmit();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,1000)");
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//JavascriptExecutor js = (JavascriptExecutor) driver;
+		//js.executeScript("window.scrollBy(0,1000)");
 		od.setquote();
 		od.setdropdn("3");
+		od.selectradioY();
+		od.setincidents("9999");
+		od.setregistration();
+		od.setmileage();
+		od.setvalue();
+		od.setparkinglocationdn();
+		od.setyear();
+		od.setmonth("April");
+		od.setdate();
+		od.setCalculatePbutton();
+		od.getcalculatedpremium();
+		
 	}
 
 

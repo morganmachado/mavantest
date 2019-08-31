@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 28 21:39:05 IST 2019</td>
+<td>Started on:</td><td>Sat Aug 31 15:37:38 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>9 seconds (9890 ms)</td>
+<tr><td>Total time:</td><td>12 seconds (12143 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,13 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.automation.testCases.QAordertest.dropdntest()'><b>dropdntest</b><br>Test class: com.automation.testCases.QAordertest</td>
-<td><div><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression [id=&apos;ui-id-2&apos;] because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;[id=&apos;ui-id-2&apos;]&apos; is not a valid XPath expression.
-  (Session info: chrome=77.0.3865.42)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+<td><div><pre>org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=77.0.3865.56)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;morgans-MacBook-Pro.local&apos;, ip: &apos;10.0.0.10&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_221&apos;
+System info: host: &apos;morgans-MacBook-Pro.local&apos;, ip: &apos;10.0.0.6&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_221&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.42, chrome: {chromedriverVersion: 77.0.3865.10 (bc3579f611bbc..., userDataDir: /var/folders/47/tp6zn5b572x...}, goog:chromeOptions: {debuggerAddress: localhost:59190}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5fd99a07619f9a89fce52db6050b24a6
-*** Element info: {Using=xpath, value=[id=&apos;ui-id-2&apos;]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.56, chrome: {chromedriverVersion: 77.0.3865.10 (bc3579f611bbc..., userDataDir: /var/folders/47/tp6zn5b572x...}, goog:chromeOptions: {debuggerAddress: localhost:53583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 364023f6ac1e6dce743ae4e6ae5c718e
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -96,15 +93,8 @@ Session ID: 5fd99a07619f9a89fce52db6050b24a6
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.click(Unknown Source)
-	at com.automation.pageObjects.QAorder.setquote(QAorder.java:19)
-	at com.automation.testCases.QAordertest.dropdntest(QAordertest.java:23)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.automation.testCases.QAordertest.dropdntest(QAordertest.java:16)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -130,17 +120,14 @@ Session ID: 5fd99a07619f9a89fce52db6050b24a6
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace215082566", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace215082566'><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression [id=&apos;ui-id-2&apos;] because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;[id=&apos;ui-id-2&apos;]&apos; is not a valid XPath expression.
-  (Session info: chrome=77.0.3865.42)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+</pre></div><a href='#' onClick='toggleBox("stack-trace126189538", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace126189538'><pre>org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=77.0.3865.56)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;morgans-MacBook-Pro.local&apos;, ip: &apos;10.0.0.10&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_221&apos;
+System info: host: &apos;morgans-MacBook-Pro.local&apos;, ip: &apos;10.0.0.6&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_221&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.42, chrome: {chromedriverVersion: 77.0.3865.10 (bc3579f611bbc..., userDataDir: /var/folders/47/tp6zn5b572x...}, goog:chromeOptions: {debuggerAddress: localhost:59190}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5fd99a07619f9a89fce52db6050b24a6
-*** Element info: {Using=xpath, value=[id=&apos;ui-id-2&apos;]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.56, chrome: {chromedriverVersion: 77.0.3865.10 (bc3579f611bbc..., userDataDir: /var/folders/47/tp6zn5b572x...}, goog:chromeOptions: {debuggerAddress: localhost:53583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 364023f6ac1e6dce743ae4e6ae5c718e
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -151,15 +138,8 @@ Session ID: 5fd99a07619f9a89fce52db6050b24a6
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.click(Unknown Source)
-	at com.automation.pageObjects.QAorder.setquote(QAorder.java:19)
-	at com.automation.testCases.QAordertest.dropdntest(QAordertest.java:23)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.automation.testCases.QAordertest.dropdntest(QAordertest.java:16)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -186,7 +166,7 @@ Session ID: 5fd99a07619f9a89fce52db6050b24a6
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>8</td>
+<td>10</td>
 <td>com.automation.testCases.QAordertest@13deb50e</td></tr>
 </table><p>
 </body>

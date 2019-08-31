@@ -1,11 +1,13 @@
-/Users/morgan/eclipse/maventest/src/test/java/com/automation/testCases/StandaloneTest03.java
-/Users/morgan/eclipse/maventest/src/test/java/com/automation/testCases/StandAloneTestNGTest01.java
 /Users/morgan/eclipse/maventest/src/test/java/com/automation/testCases/BaseClass.java
-/Users/morgan/eclipse/maventest/src/test/java/com/automation/testCases/QAbase01.java
 /Users/morgan/eclipse/maventest/src/test/java/com/automation/testCases/StandAloneProperties.java
 /Users/morgan/eclipse/maventest/src/test/java/com/automation/testCases/StanaloneTestNGTest.java
+/Users/morgan/eclipse/maventest/src/test/java/com/automation/testCases/QAordertest.java
+/Users/morgan/eclipse/maventest/src/test/java/com/automation/testCases/LoginTest01.java
+/Users/morgan/eclipse/maventest/src/test/java/com/automation/testCases/StandaloneTest03.java
+/Users/morgan/eclipse/maventest/src/test/java/com/automation/testCases/StandAloneTestNGTest01.java
+/Users/morgan/eclipse/maventest/src/test/java/com/automation/testCases/QAbase01.java
+/Users/morgan/eclipse/maventest/src/test/java/com/automation/pageObjects/QAorder.java
 /Users/morgan/eclipse/maventest/src/test/java/com/automation/pageObjects/QAloginPage.java
 /Users/morgan/eclipse/maventest/src/test/java/com/automation/testCases/StandAloneTestNGTest02.java
 /Users/morgan/eclipse/maventest/src/test/java/com/automation/pageObjects/LoginPage.java
-/Users/morgan/eclipse/maventest/src/test/java/com/automation/testCases/LoginTest01.java
 /Users/morgan/eclipse/maventest/src/test/java/com/automation/testCases/QAtest01.java
