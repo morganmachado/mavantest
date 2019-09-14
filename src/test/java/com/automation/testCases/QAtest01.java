@@ -12,7 +12,7 @@ import com.automation.pageObjects.QAloginPage;
 import com.automation.pageObjects.popup;
 
 public class QAtest01 extends QAbase01 {
-/*
+
 
 	@Test
 	public void LoginTest() 
@@ -31,7 +31,7 @@ public class QAtest01 extends QAbase01 {
 			AssertJUnit.assertTrue(false);
 		}
 	}
-*/
+
 	@Test
 	public void popuptest() throws InterruptedException {
 		driver.get("http://www.popuptest.com/");
@@ -58,7 +58,7 @@ public class QAtest01 extends QAbase01 {
 		driver.close();
 
 		driver.switchTo().window(parentWindowId);
-		System.out.println("parent window title =" +childwindowId);
+		System.out.println("parent window title =" +driver.getTitle());
 
 
 

@@ -1,10 +1,12 @@
 package com.automation.pageObjects;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+
 
 public class QAorder {
 	WebDriver ldriver;
@@ -51,6 +53,8 @@ public class QAorder {
 	public void setvalue() {
 		value.sendKeys("13000");
 	}
+	
+	
 	public void setparkinglocationdn() {
 		Select select = new Select(parkinglocationdn);
 		select.selectByVisibleText("Public Place");
